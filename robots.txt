@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Disallow: /messages.html
+Disallow: /login.html
+
+Sitemap: https://discrety.com/sitemap.xml
