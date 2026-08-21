@@ -15,7 +15,7 @@
 ```nginx
 server {
     listen 80;
-    server_name discrety.co.il www.discrety.co.il;
+    server_name discrety.com www.discrety.com;
     root /var/www/discrety;
     index index.html;
     charset utf-8;
@@ -27,7 +27,7 @@ server {
 
 ## Перед публикацией замените
 
-Домен: в sitemap.xml, robots.txt и в meta-тегах canonical/og:url каждой страницы указан плейсхолдер `https://discrety.co.il` — замените на ваш реальный домен (поиском по файлам). Демо-данные: цены на premium.html помечены как «להמחשה בלבד», статистика в admin.html и анкеты — вымышленные. SEO: в страницы добавлены ключевые слова (היכרויות, דיסקרטי и производные) в title, description, keywords, Open Graph и JSON-LD на главной; после публикации подключите домен в Google Search Console и отправьте sitemap.xml.
+Домен: в sitemap.xml, robots.txt и в meta-тегах canonical/og:url каждой страницы указан плейсхолдер `https://discrety.com` — замените на ваш реальный домен (поиском по файлам). Демо-данные: цены на premium.html помечены как «להמחשה בלבד», статистика в admin.html и анкеты — вымышленные. SEO: в страницы добавлены ключевые слова (היכרויות, דיסקרטי и производные) в title, description, keywords, Open Graph и JSON-LD на главной; после публикации подключите домен в Google Search Console и отправьте sitemap.xml.
 
 ## Что дальше
 
