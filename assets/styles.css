@@ -555,3 +555,17 @@
 
 /* Ассеты */
 .ng{--logo:url("logo.png"); --hero-photo:url("hero.jpg"); --av-f:url("avatar-f.png"); --av-m:url("avatar-m.png")}
+
+/* Анкета каталога: вертикальное фото справа (визуально слева), текст рядом (макет Canva) */
+.res-grid .res-card{display:grid; grid-template-columns:1fr 118px; gap:16px; align-items:stretch;
+  justify-items:stretch; text-align:start; padding:16px}
+.res-grid .res-ava{grid-column:2; grid-row:1; margin:0; width:118px; height:150px; position:relative}
+.res-grid .res-ava .avatar{width:100%; height:100%; border-radius:14px; border:1px solid var(--line)}
+.res-grid .res-ava i{top:8px; bottom:auto; inset-inline-end:8px; width:11px; height:11px}
+.res-grid .res-info{grid-column:1; grid-row:1; display:flex; flex-direction:column; gap:6px; min-width:0}
+.res-grid .res-name{font-size:1.05rem; line-height:1.3}
+.res-grid .res-about{font-size:.84rem; line-height:1.5; color:var(--mut);
+  display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden}
+.res-grid .res-meta{font-size:.78rem; color:var(--mut2)}
+.res-grid .res-tags{justify-content:flex-start; margin-top:auto}
+.res-grid .res-tags span:not(.vf){color:var(--mint); border-color:rgba(94,230,208,.35)}
